@@ -59,7 +59,7 @@ importers:
         version: link:../../packages/components-for-test
       next:
         specifier: 15.0.2
-        version: 15.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 15.0.2(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
     devDependencies:
       '@types/babel__core':
         specifier: ^7.20.4
@@ -138,8 +138,8 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.2.0)
       vite-plugin-babel:
         specifier: ^1.2.0
         version: 1.2.0(@babel/core@7.26.0)(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))
@@ -157,8 +157,8 @@ importers:
         specifier: ^18.2.37
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.15
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       '@vitejs/plugin-react':
         specifier: ^4.3.1
         version: 4.3.1(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))
@@ -197,7 +197,7 @@ importers:
         version: 7.26.2
       '@monaco-editor/react':
         specifier: ^4.6.0
-        version: 4.6.0(monaco-editor@0.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.6.0(monaco-editor@0.47.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       '@preact-signals/safe-react':
         specifier: workspace:*
         version: link:../../packages/react
@@ -217,14 +217,14 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.2.0)
       shiki:
         specifier: ^1.24.0
         version: 1.24.0
       sonner:
         specifier: ^1.5.0
-        version: 1.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 1.5.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
     devDependencies:
       '@shikijs/monaco':
         specifier: ^1.24.0
@@ -236,8 +236,8 @@ importers:
         specifier: ^18.2.66
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.22
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.0.0
         version: 7.4.0(@typescript-eslint/parser@7.4.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
@@ -303,8 +303,8 @@ importers:
         specifier: ^18.2.37
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.15
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       concurrently:
         specifier: ^8.2.2
         version: 8.2.2
@@ -353,7 +353,7 @@ importers:
         version: 6.5.0
       '@testing-library/react':
         specifier: ^13.4.0
-        version: 13.4.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 13.4.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       '@types/jsdom':
         specifier: ^21.1.5
         version: 21.1.5
@@ -361,8 +361,8 @@ importers:
         specifier: ^18.2.37
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.15
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       '@types/use-sync-external-store':
         specifier: ^0.0.3
         version: 0.0.3
@@ -376,8 +376,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.2.0)
       react-error-boundary:
         specifier: ^4.0.13
         version: 4.0.13(react@18.2.0)
@@ -447,8 +447,8 @@ importers:
         specifier: ^18.2.37
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.15
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       '@types/regex-escape':
         specifier: ^3.4.1
         version: 3.4.1
@@ -477,11 +477,11 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.2.0)
       react-router-dom:
         specifier: ^6.9.0
-        version: 6.18.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 6.18.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       rollup:
         specifier: ^4.17.1
         version: 4.17.1
@@ -596,8 +596,8 @@ importers:
         specifier: ^18.2.37
         version: 18.2.73
       '@types/react-dom':
-        specifier: ^18.2.15
-        version: 18.2.23
+        specifier: ^18.3.1
+        version: 18.3.1
       check-export-map:
         specifier: ^1.3.1
         version: 1.3.1
@@ -2554,6 +2554,9 @@ packages:
 
   '@types/react-dom@18.2.23':
     resolution: {integrity: sha512-ZQ71wgGOTmDYpnav2knkjr3qXdAFu0vsk8Ci5w3pGAIdj7/kKAyn+VsQDhXsmzzzepAiI9leWMmubXz690AI/A==}
+
+  '@types/react-dom@18.3.1':
+    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
 
   '@types/react@18.2.73':
     resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
@@ -5322,6 +5325,11 @@ packages:
     peerDependencies:
       react: ^18.2.0
 
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
+    peerDependencies:
+      react: ^18.3.1
+
   react-error-boundary@4.0.13:
     resolution: {integrity: sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==}
     peerDependencies:
@@ -5585,6 +5593,9 @@ packages:
 
   scheduler@0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
   scheduler@0.24.0-canary-efb381bbf-20230505:
     resolution: {integrity: sha512-ABvovCDe/k9IluqSh4/ISoq8tIJnW8euVAWYt5j/bg6dRnqwQwiGO1F/V4AyK96NGF/FB04FhOUDuWj8IKfABA==}
@@ -7959,12 +7970,12 @@ snapshots:
       monaco-editor: 0.47.0
       state-local: 1.0.7
 
-  '@monaco-editor/react@4.6.0(monaco-editor@0.47.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@monaco-editor/react@4.6.0(monaco-editor@0.47.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@monaco-editor/loader': 1.4.0(monaco-editor@0.47.0)
       monaco-editor: 0.47.0
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   '@next/env@15.0.2': {}
 
@@ -8665,13 +8676,13 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
 
-  '@testing-library/react@13.4.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@testing-library/react@13.4.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@testing-library/dom': 8.20.1
-      '@types/react-dom': 18.2.23
+      '@types/react-dom': 18.3.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
@@ -8780,6 +8791,10 @@ snapshots:
   '@types/prop-types@15.7.5': {}
 
   '@types/react-dom@18.2.23':
+    dependencies:
+      '@types/react': 18.2.73
+
+  '@types/react-dom@18.3.1':
     dependencies:
       '@types/react': 18.2.73
 
@@ -11503,7 +11518,7 @@ snapshots:
 
   netmask@2.0.2: {}
 
-  next@15.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@15.0.2(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@next/env': 15.0.2
       '@swc/counter': 0.1.3
@@ -11512,7 +11527,7 @@ snapshots:
       caniuse-lite: 1.0.30001679
       postcss: 8.4.31
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       styled-jsx: 5.1.6(react@18.2.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.2
@@ -11996,6 +12011,12 @@ snapshots:
       react: 18.2.0
       scheduler: 0.23.0
 
+  react-dom@18.3.1(react@18.2.0):
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.2.0
+      scheduler: 0.23.2
+
   react-error-boundary@4.0.13(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.26.0
@@ -12082,11 +12103,11 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-router-dom@6.18.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router-dom@6.18.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@remix-run/router': 1.11.0
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       react-router: 6.18.0(react@18.2.0)
 
   react-router@6.18.0(react@18.2.0):
@@ -12345,6 +12366,10 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
+  scheduler@0.23.2:
+    dependencies:
+      loose-envify: 1.4.0
+
   scheduler@0.24.0-canary-efb381bbf-20230505:
     dependencies:
       loose-envify: 1.4.0
@@ -12523,10 +12548,10 @@ snapshots:
       ip: 2.0.0
       smart-buffer: 4.2.0
 
-  sonner@1.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  sonner@1.5.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   source-map-js@1.2.1: {}
 

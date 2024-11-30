@@ -47,7 +47,7 @@
     "@preact/signals-react": ">=2.0.0",
     "@preact-signals/safe-react": "workspace:*",
     "react": "17.*.* || 18.*.* || 19.x",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.3.1"
   },
   "peerDependenciesMeta": {
     "react": {
@@ -75,12 +75,12 @@
     "@testing-library/react": "^13.4.0",
     "@types/jsdom": "^21.1.5",
     "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/react-dom": "^18.3.1",
     "@types/use-sync-external-store": "^0.0.3",
     "concurrently": "^8.2.2",
     "jsdom": "^24.0.0",
     "react": "18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-error-boundary": "^4.0.13",
     "webdriverio": "^8.22.1"
   },

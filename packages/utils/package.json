@@ -178,7 +178,7 @@
     "@types/babel__helper-module-imports": "^7.18.3",
     "@types/babel__traverse": "^7.20.5",
     "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/react-dom": "^18.3.1",
     "check-export-map": "^1.3.1",
     "concurrently": "^8.2.2",
     "fast-glob": "^3.3.2",
