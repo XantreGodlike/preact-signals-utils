@@ -19,6 +19,8 @@ import {
   compressToEncodedURIComponent,
 } from "lz-string";
 import { toast } from "sonner";
+import reactTypes from "../node_modules/@types/react/index.d.ts?raw";
+import macroTypes from "../node_modules/@preact-signals/utils/dist/types/lib/macro.d.ts?raw";
 
 const signalsTransformName = "signals-transform";
 Babel.registerPlugin(signalsTransformName, signalsTransformPlugin);
@@ -177,7 +179,7 @@ const highlighter = resource({
   fetcher: async () => {
     const h = await getHighlighter({
       themes: ["github-dark", "github-light"],
-      langs: ["tsx"],
+      langs: ["typescript"],
     });
     await h.loadTheme("github-light");
 
@@ -230,8 +232,58 @@ function App() {
     if (!monaco || !h) {
       return;
     }
+    monaco.languages.typescript.typescriptDefaults.setCompilerOptions({
+      target: monaco.languages.typescript.ScriptTarget.Latest,
+      allowNonTsExtensions: true,
+      moduleResolution: monaco.languages.typescript.ModuleResolutionKind.NodeJs,
+      module: monaco.languages.typescript.ModuleKind.ES2015,
+      noEmit: true,
+      esModuleInterop: true,
+      jsx: monaco.languages.typescript.JsxEmit.React,
+      reactNamespace: "React",
+      allowJs: true,
+      typeRoots: ["node_modules/@types"],
+    });
 
-    monaco?.languages.register({ id: "tsx" });
+    monaco.languages.typescript.typescriptDefaults.setDiagnosticsOptions({
+      noSemanticValidation: false,
+      noSyntaxValidation: false,
+    });
+
+    monaco.languages.typescript.typescriptDefaults.addExtraLib(
+      reactTypes,
+      `file:///node_modules/@react/types/index.d.ts`
+    );
+
+    monaco.languages.typescript.typescriptDefaults.addExtraLib(
+      `
+      export function add(a: number, b: number): number
+      `,
+      `file:///node_modules/@types/@preact-signals/utils/macro/index.d.ts`
+    );
+    monaco.languages.typescript.typescriptDefaults.addExtraLib(
+      `
+      export function add(a: number, b: number): number
+      `,
+      `file:///node_modules/a/types/index.d.ts`
+    );
+
+    monaco.languages.typescript.typescriptDefaults.addExtraLib(
+      `
+      export function add(a: number, b: number): number
+      `,
+      `file:///node_modules/@types/a/index.d.ts`
+    );
+
+    monaco.languages.typescript.typescriptDefaults.addExtraLib(
+      `
+      export function add(a: number, b: number): number
+      `,
+      `@types/a/index.d.ts`
+    );
+
+    // h.loadLanguage("typescript");
+    monaco.languages.register({ id: "typescript" });
 
     shikiToMonaco(h, monaco);
   });
@@ -256,7 +308,7 @@ function App() {
           ))
         )}
       </div>
-      <div className="flex flex-row h-full">
+      <div className="flex flex-row h-full max-w-full overflow-hidden">
         <Editor
           height={"100%"}
           width={"50%"}
@@ -265,9 +317,10 @@ function App() {
             minimap: {
               enabled: false,
             },
+            wordWrap: "on",
           }}
           theme="github-dark"
-          defaultLanguage="tsx"
+          defaultLanguage="typescript"
           defaultValue={untracked(() => text)}
           onChange={(v) => setDebouncedText(v ?? "")}
         />
@@ -281,9 +334,14 @@ function App() {
                   enabled: false,
                 },
                 readOnly: true,
+                "semanticHighlighting.enabled": true,
+                inlayHints: {
+                  enabled: "on",
+                },
+                wordWrap: "on",
               }}
+              language="typescript"
               theme="github-dark"
-              defaultLanguage="tsx"
               value={$prevSuccessCompilation}
             />
 
