@@ -173,7 +173,7 @@
     "@preact-signals/unified-signals": "workspace:*",
     "@preact/signals-react": "^1.3.6",
     "@rollup/plugin-replace": "^5.0.5",
-    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-typescript": "^12.1.2",
     "@types/babel__core": "^7.20.4",
     "@types/babel__helper-module-imports": "^7.18.3",
     "@types/babel__traverse": "^7.20.5",
