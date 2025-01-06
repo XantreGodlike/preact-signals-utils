@@ -102,8 +102,8 @@ importers:
         version: 10.24.3
     devDependencies:
       '@preact/preset-vite':
-        specifier: ^2.8.2
-        version: 2.8.2(@babel/core@7.26.0)(preact@10.24.3)(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))
+        specifier: ^2.9.4
+        version: 2.9.4(@babel/core@7.26.0)(preact@10.24.3)(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.49)
@@ -2004,11 +2004,11 @@ packages:
   '@polka/url@1.0.0-next.24':
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
 
-  '@preact/preset-vite@2.8.2':
-    resolution: {integrity: sha512-m3tl+M8IO8jgiHnk+7LSTFl8axdPXloewi7iGVLdmCwf34XOzEUur0bZVewW4DUbUipFjTS2CXu27+5f/oexBA==}
+  '@preact/preset-vite@2.9.4':
+    resolution: {integrity: sha512-PpPnUlKUsbWZ2oBuAkAMnezhIYGsR7xi2EZcPjeTAjF1DhGl00IcPD1ZeXRFKp38i7Hk4kEdFlwpJ1525cAzpg==}
     peerDependencies:
       '@babel/core': 7.x
-      vite: 2.x || 3.x || 4.x || 5.x
+      vite: 2.x || 3.x || 4.x || 5.x || 6.x
 
   '@preact/signals-core@1.8.0':
     resolution: {integrity: sha512-OBvUsRZqNmjzCZXWLxkZfhcgT+Fk8DDcT/8vD6a1xhDemodyy87UJRJfASMuSD8FaAIeGgGm85ydXhm7lr4fyA==}
@@ -5903,6 +5903,7 @@ packages:
 
   sudo-prompt@9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -8033,8 +8034,9 @@ snapshots:
 
   '@polka/url@1.0.0-next.24': {}
 
-  '@preact/preset-vite@2.8.2(@babel/core@7.26.0)(preact@10.24.3)(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))':
+  '@preact/preset-vite@2.9.4(@babel/core@7.26.0)(preact@10.24.3)(vite@5.2.11(@types/node@22.10.1)(terser@5.36.0))':
     dependencies:
+      '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.26.0)
@@ -8045,7 +8047,6 @@ snapshots:
       kolorist: 1.8.0
       magic-string: 0.30.5
       node-html-parser: 6.1.13
-      resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
       vite: 5.2.11(@types/node@22.10.1)(terser@5.36.0)
